@@ -25,27 +25,19 @@ body{
 }
 
 header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    border-bottom: 4px solid #b8b4b4;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: #fbfbfb;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 1px 1px 15px 1px #cfc0c0;
 }
 
-nav ul li{
-    display: inline-block;
-    padding: 15px;
+.fotoredonda{
+    border-radius:50%;
+    width:120%;
+    margin-bottom: 50px;
+    padding: 0px 20px;
 }
-
-    nav ul li a{
-    padding: 10px;
-    }
-
 
 #boton{
     background-color: #af599e;
@@ -60,17 +52,10 @@ ul {
     list-style: none;
 }
 
-#menu-item{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.fotoredonda{
-    border-radius: 50%;
-    width: 320px;
-    margin-bottom: 50px;
+li{
+    display: inline; 
+    block-size: auto;
+    padding: 20px;
 }
 
 h1{
@@ -92,10 +77,12 @@ a {
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
 main {
-    max-width: 1200px;
-    margin: auto;
-    padding-top: 150px;
     min-height: 100vh;
+    padding:  90px 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #inicio{
@@ -104,7 +91,6 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 20px;
     margin-bottom: 200px;
 }
 
