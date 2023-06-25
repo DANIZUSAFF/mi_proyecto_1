@@ -54,10 +54,11 @@ main {
     margin-top: 30px;
     text-align: center;
     margin-bottom: 150px;
+    min-height: 100vh;
 }
 
 .fotoredonda{
-    max-width: 500px;
+    max-width: 400px;
     border-radius:50%;
     width:100%;
     margin-bottom: 50px;
@@ -73,19 +74,22 @@ main {
     margin-top: 50px;
 }
 
+#contacto{
+    min-height: 100vh;
+}
+
 #color{
     background-color: rgba(175, 89, 158, 0.3);
     padding: 30px 30px;
     border-radius: 20px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #menu-cierre{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 
 footer{
@@ -128,7 +132,7 @@ p{
     color: #0f0f0f;
     font-size: 18px;
     line-height: 1.2;
-    
+    padding: 20px 0;
 }
 
 .p1{
