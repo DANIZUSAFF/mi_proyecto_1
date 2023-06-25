@@ -92,6 +92,11 @@ main {
     justify-content: space-around;
 }
 
+#menu-cierre li img{
+    width: 90px;
+}
+
+
 footer{
     width: 100%;
     background-color: #af599e;
