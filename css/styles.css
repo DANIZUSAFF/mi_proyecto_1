@@ -51,10 +51,7 @@ main {
 }
 
 #inicio{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 30px;
     text-align: center;
     margin-bottom: 150px;
 }
@@ -131,6 +128,11 @@ p{
     color: #0f0f0f;
     font-size: 18px;
     line-height: 1.2;
+    
+}
+
+.p1{
+    margin-bottom: 70px;
 }
 
 /*li: Para que los enlaces hereden el color de texto y no tengan subrayado */
